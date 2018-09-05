@@ -31,7 +31,6 @@ public class Person3 {
 	public String toString(String input) {
 	  return name + calc(input);
 	}
-	
 	/**
 	 * This method should take the string
 	 * input and return its reverse.
@@ -42,7 +41,11 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+		String newS = "";
+		for(int i = input.length; i > 0; i--){
+			input.charAt(i);
+			newS += charAt(i);
+		}
+	  return newS;
 	}
 }
